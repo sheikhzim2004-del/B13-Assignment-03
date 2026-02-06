@@ -8,11 +8,11 @@ function gonoVote(array) {
     }
     let haVote = 0;
     let naVote = 0;
-    for(vote of array){
+    for(let vote of array){
         if(vote === 'ha'){
             haVote = haVote + 1;
         }
-        else{
+        else if (vote === 'na'){
             naVote++;
         }
     }
@@ -23,7 +23,7 @@ function gonoVote(array) {
         return false;
     }
     else if(haVote === naVote){
-        return "equel"
+        return "equal"
     }
     // console.log(haVote);
     // console.log(naVote);
