@@ -1,5 +1,4 @@
 
-
 /*function signature/sample */
 function gonoVote(array) {
 
@@ -28,6 +27,9 @@ function gonoVote(array) {
     // console.log(haVote);
     // console.log(naVote);
 }
+
+
+
 
 
 // const result = gonoVote(["ha","na","na"]);

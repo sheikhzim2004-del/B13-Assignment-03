@@ -1,6 +1,4 @@
 
-
-
 /*function signature/sample */
 function validOtp(otp) {
     if(typeof otp !== 'string'){
@@ -13,6 +11,8 @@ function validOtp(otp) {
         return false;
     }
 }
+
+
 
 
 // const otp = "ph-10985";

@@ -1,6 +1,4 @@
 
-
-
 /*function signature/sample */
 function newPrice(currentPrice , discount ) {
     const discount20 = (currentPrice / 100) * discount;
@@ -15,7 +13,7 @@ function newPrice(currentPrice , discount ) {
 
 
 
-const currentPrice = 2000;
-const discount = 17.17;
-const result = newPrice(currentPrice, discount);
-console.log(result);
+// const currentPrice = 2000;
+// const discount = 17.17;
+// const result = newPrice(currentPrice, discount);
+// console.log(result);
