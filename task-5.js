@@ -2,21 +2,21 @@
 
 /*function signature/sample */
 function  analyzeText(str) {
-  if(typeof str !== 'string'){
+  if(typeof str !== 'string' || str === ''){
     return 'Invalid';
   }
   const words = str.split(' ');
-  let longword = words[0];
+  let longwords = words[0];
   for (let word of words){
-    if(word.length > longword.length){
-      longword = word;
+    if(word.length > longwords.length){
+      longwords = word;
     }
   }
   const token = words.join('').length;
    return {
-      longword,
+      longwords,
       token,
     }
 }
-const result = analyzeText("Keep coding keep shining");
-console.log(result);
+// const result = analyzeText("Keep coding keep shining");
+// console.log(result);
