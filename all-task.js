@@ -71,8 +71,8 @@ function gonoVote(array) {
 
 // 05 no task
 function  analyzeText(str) {
-  if(typeof str !== 'string' || str === ''){
-    return 'Invalid';
+  if(typeof str !== 'string' || str.trim() === ''){
+    return 'Invalid'; 
   }
 
   const words = str.split(' '); //str ke spacewise alada kora hoyeche
